@@ -5,7 +5,7 @@ export function Home() {
   const {user, signout} = UserAuth
 
   return ( <div className="App">
-   <Perfil foto={user.picture} name={user.name} email={user.email}/>
+   {/* <Perfil foto={user.picture} name={user.name} email={user.email}/> */}
    
  
 
